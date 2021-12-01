@@ -22,5 +22,9 @@ def registro():
 def pedidosclientes():
     return render_template('pedidos/pedidos_domicilio.html')
 
+@app.route('/Promociones')
+def promocioness():
+    return render_template('Promociones/promo.html')
+
 if __name__=='__main__':
     app.run(debug=True)
